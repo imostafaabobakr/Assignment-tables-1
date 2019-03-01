@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- 
+* Author : Mostafa Abobakr
+* Date : 3/1/2019
+* Why : Assignment 1
+* Type : HTML -->
+<html>
+<head>
+<style>
+/*Table styling start*/
+table {
+  border: 0px solid white;
+}
+/*styling table data*/
+table td {
+  border: 2px solid white;
+  border-radius: 10px;
+color:#fff
+}
+/*styling table rows*/
+table tr{
+  border: 2px solid white;
+  border-radius: 10px;
+}
+/*styling table headers*/
+table th {
+  border: 2px solid white;
+  border-radius: 10px;
+  color:#fff;
+}
+/*Changing color when mouseover the cell*/
+th:hover {
+    background-color: #2980b9;
+}
+/*Table styling end*/
+
+/*page background*/
+body {
+      background-image: url("assets/welcome.jpg");
+      position: relative;
+      background-repeat: repeat-y;
+      background-size:100% 100vh;
+}
+
+/*change link style*/
+ a {
+text-decoration: none;
+color:#fff
+ }
+
+ /*page footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #2980b9;
+  color: white;
+  text-align: center;
+
+}
+</style>
+<title>Tables</title>
+</head>
+<body style="background: #272822" >
+<!-- Image Table -->
+<table width="100%">	
+    <tr style=" border: 0px solid white;
+  border-radius: 0;">
+    <td align="center" style=" border: 0px solid white;
+  border-radius: 0;"bgcolor="#272822"><img align="center" src="assets/hellow.gif"/></td>
+  </tr>
+</table>
+<!-- Menu Table-->
+<table align="center" width="100%">
+  <tr>
+    <th ><p><a href="Page1-table.html">Tables</a></p></th>
+        <th ><p><a href="page2-table-layout.html">More</a></p></th>
+  </tr>
+</table>
+
+	<br/>
+	<!-- footer -->
+	<div class="footer">
+  <p><a target="_blank" href="https://github.com/imostafaabobakr">Mostafa Abobakr </a> - copyright © 2018 all rights reserved</p>
+</div>
+</body>
+</html>
